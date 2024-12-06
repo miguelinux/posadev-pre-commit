@@ -18,6 +18,7 @@ def main():
     """
     print("Pi es:", math.pi)
     print(os.path.exists("/etc/"))  # para saber si estoy en linux
+    print("Pi es:", math.pi)
 
 
 if __name__ == "__main__":
