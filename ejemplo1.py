@@ -25,7 +25,7 @@ def main():
     print(os.path.exists("/etc/"))  # para saber si estoy en linux
     print("Pi es:", math.pi)
 
-    la_suma = suma(10, "14")
+    la_suma = suma(10, 14)
 
     print(la_suma)
 
