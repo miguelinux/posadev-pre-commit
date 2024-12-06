@@ -12,6 +12,11 @@ import math
 import os
 
 
+def suma(num1: int, num2: int) -> int:
+    res = num1 + num2
+    return res
+
+
 def main():
     """
     Comentario de la función
@@ -19,6 +24,10 @@ def main():
     print("Pi es:", math.pi)
     print(os.path.exists("/etc/"))  # para saber si estoy en linux
     print("Pi es:", math.pi)
+
+    la_suma = suma(10, "14")
+
+    print(la_suma)
 
 
 if __name__ == "__main__":
